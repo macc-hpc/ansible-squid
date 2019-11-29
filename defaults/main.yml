@@ -1,0 +1,6 @@
+---
+# defaults file for ansible-squid
+
+squid_package:  "squid"
+squid_root_dir: "/etc/squid"
+squid_service:  "squid"

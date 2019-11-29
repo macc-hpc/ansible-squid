@@ -1,0 +1,8 @@
+---
+# tasks file for ansible-squid
+- name: install Squid
+  yum:
+    name: squid
+    state: "present"
+  become: true
+  tags: squid
