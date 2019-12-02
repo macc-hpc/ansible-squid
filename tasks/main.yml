@@ -6,4 +6,3 @@
     state: "present"
   become: true
   tags: squid
-- include: config_squid.yml
